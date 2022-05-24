@@ -1,5 +1,5 @@
-const rootFolder = './IMG/Portrait/';
-const destFolder = 'thumbnail/Portrait/';
+const rootFolder = './IMG/Dress/';
+const destFolder = 'thumbnail/Dress/';
 const fs = require('fs');
 const sharp = require('sharp');
 

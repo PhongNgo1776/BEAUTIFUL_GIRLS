@@ -1,5 +1,5 @@
-const rootFolder = './IMG/AoDai/';
-const destFolder = 'thumbnail/AoDai/';
+const rootFolder = 'StadingStyle/';
+const destFolder = 'thumbnail/StadingStyle/';
 const fs = require('fs');
 const sharp = require('sharp');
 

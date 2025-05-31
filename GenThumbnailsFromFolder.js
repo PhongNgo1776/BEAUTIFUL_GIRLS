@@ -1,5 +1,5 @@
-const rootFolder = './IMG/AoDai/';
-const destFolder = 'thumbnail/AoDai/';
+const rootFolder = 'Portrait/';
+const destFolder = 'thumbnail/Portrait/';
 const fs = require('fs');
 const sharp = require('sharp');
 
@@ -16,7 +16,7 @@ fs.readdir(rootFolder, (err, files) => {
         });
       }
 
-      sharp(rootFolder + filename).resize({ width: 100 }).toFile(destFolder + filename);
+      sharp(rootFolder + filename).resize({ height: 200 }).toFile(destFolder + filename);
     }
     console.log(filename);
   });

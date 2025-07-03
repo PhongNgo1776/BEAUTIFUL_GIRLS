@@ -1,7 +1,5 @@
-const rootFolder = 'StadingStyle/';
-const destFolder = 'thumbnail/StadingStyle/';
+const rootFolder = 'Stanging/';
 const fs = require('fs');
-const sharp = require('sharp');
 
 
 fs.readdir(rootFolder, (err, files) => {

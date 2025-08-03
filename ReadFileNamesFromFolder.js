@@ -1,4 +1,4 @@
-const rootFolder = 'Stanging/';
+const rootFolder = 'Standing/';
 const fs = require('fs');
 
 

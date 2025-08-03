@@ -2,7 +2,7 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const folder = '/Users/WORK/NEW_IMAGES';
+const folder = '/Users/WORK/NEW_IMAGES/Standing/'; // Update to your folder path
 const MAX_FILE_SIZE_KB = 500;
 const MAX_WIDTH = 1280;
 const QUALITY_STEP = 10;

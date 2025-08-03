@@ -1,4 +1,4 @@
-const rootFolder = '/Users/WORK/NEW_IMAGES/';
+const rootFolder = '/Users/WORK/NEW_IMAGES/Standing/';
 const fs = require('fs');
 
 

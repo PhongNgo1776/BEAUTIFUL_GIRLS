@@ -1,4 +1,4 @@
-const rootFolder = 'Standing/';
+const rootFolder = 'Portrait/';
 
 const fs = require('fs');
 const path = require('path');
